@@ -1,0 +1,2 @@
+models/colorization_release_v2.caffemodel filter=lfs diff=lfs merge=lfs -text
+models/*.caffemodel filter=lfs diff=lfs merge=lfs -text
