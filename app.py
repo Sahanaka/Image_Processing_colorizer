@@ -44,12 +44,12 @@ def colorizer(img):
     return colorized
     
 st.write("""
-          # Black & White to Color Image Converter
+          # Gray scale to Color Image Converter
           """
           )
 
-st.write("This app can Colorize a given Black & White Image.")
-st.write("@authors: Herath H.M.D.P.M & Weraniyagoda W.A.S.A")
+st.write("This app can Colorize a given Gray scale image.")
+st.write("Contributors: Herath H.M.D.P.M (EG/2017/3059) & Weraniyagoda W.A.S.A (EG/2017/3079)")
 
 file = st.sidebar.file_uploader("Please upload an image file", type=["jpg", "png"])
 
@@ -59,10 +59,10 @@ else:
     image = Image.open(file)
     img = np.array(image)
     
-    st.text("Your original image")
+    st.text("Uploaded Image")
     st.image(image, use_column_width=True)
     
-    st.text("Your colorized image")
+    st.text("Colorized Image")
     color = colorizer(img)
     
     st.image(color, use_column_width=True)
