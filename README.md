@@ -16,8 +16,8 @@ The demo application can be found in [here](https://share.streamlit.io/sahanaka/
 
 ## Contributors
 
-EG/2017/3059 - Herath H.M.D.P.M  
-EG/2017/3079 - Weraniyagoda W.A.S.A
+[EG/2017/3059 - Herath H.M.D.P.M](https://github.com/dhammikepiyumal)  
+[EG/2017/3079 - Weraniyagoda W.A.S.A](https://github.com/Sahanaka)
 
 
 
